@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Section to Add Driver -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Driver"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/driverNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Driver Name" />
+
+    <EditText
+        android:id="@+id/driverLatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Driver Latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/driverLonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Driver Longitude"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addDriverButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Driver"
+        android:layout_marginTop="8dp" />
+
+    <!-- Section to Add Rider -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Rider"
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/riderNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rider Name" />
+
+    <EditText
+        android:id="@+id/riderLatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rider Latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/riderLonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rider Longitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/riderDestLatInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Destination Latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/riderDestLonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Destination Longitude"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addRiderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Rider"
+        android:layout_marginTop="8dp" />
+
+    <!-- Request Ride Button -->
+    <Button
+        android:id="@+id/requestRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Ride"
+        android:layout_marginTop="16dp" />
+
+    <!-- Output TextView to show information -->
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+</LinearLayout>
